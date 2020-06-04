@@ -1,0 +1,339 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+img,iframe,embed{
+	max-width: 100%;
+}
+.bg_primary{
+	background-color: #3c74cf;
+}/* or ye css color blue kay liay banie agr backgound colr blue khi 
+dena hoto me isname ki css wahaan cod mey usekarsaku */
+
+
+.text_secondary{
+	color: #FF80AB ;
+}
+.top_header{
+	background-color:#FF80AB  ;
+	padding: 10px 0; /* ye top header ki css lagie jo blue background may hai */
+}
+.nav-link{
+	color: white !important;
+}
+.Details{
+	background-color:#FF80AB  ;
+	padding: 1px 0;
+
+} /* or ye headline ka background color hai */
+
+.yellow-star{
+	color:gold; 
+}
+	
+
+.nav li{
+	display: inline;
+} /* or ye css wohai jo navigation kay button par clk karogay
+ to jo option ayngy wo display karwadiay meny inline mutlb colm wise option show hongy */
+  
+  .footer{
+  	background-color:#D35400 ;
+  	padding: 100px 0;
+  } /* or ye footer jiska color dark gray hai uskay liay css lagie footer kay nam ki */
+  .footer2{
+  	background-color: #FF80AB  ;
+	padding: 10px 0;
+  } /* or ye css footer 2 ki jiska color blue hai sab say last may */
+  .line{
+  	background-color: green;
+  	padding: 2px;
+  } /* or ye line kay liay css lagie jo usful link kay nichy green line */
+  .text{
+  	color: black;
+  } /* or ye footer kay andr jo text likha wahai light gray  me ye uski css hai
+ */
+.icon i{
+  color: #427900 ;
+} /* or ye color jo phone kay liay meny use kia green jo icon phone ka hai uski css hai */
+
+ .nav-link:hover {
+    color: white;
+    background-color: goldenrod;
+    border-radius:20px;
+} /* or ye jab mouse jo home button ki trf laykr jaogy to uska background color blue hoga */
+
+
+.media img{
+  width: 35px; 
+
+}/* or ye css jo media img means kay hepatatis ki image kay liaay uuse ki css */
+.fontstyle{
+	  font-family: 'Merriweather', serif;
+} /* or ye kisi be heading agr text ko style dena hoto meny isname ki css lagakr usy code may use kara */
+.navbar-brand img{
+	width: 160px;
+
+}/* or ye logo kay liay css use ki  */
+.h3{
+	color:#FF80AB  ;
+}
+
+/* up comming project pic ka white back ground */
+
+  .block{
+	background-color:#eeeeee;
+	height:150px;
+	border:solid 2px #cccccc;
+	margin:5px;
+  }
+  .testimonials{
+	background: url('../back1.jpg')no-repeat center fixed;
+	background-size: cover;
+
+
+}
+
+.back{
+	background: url('../sky.jpg')no-repeat center fixed;
+	background-size: cover;
+
+
+}
+
+
+/* Common style */
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 1%;
+	min-width: 320px;
+	max-width: 33%;
+	max-height: 360px;
+	width: 30%;
+	height: auto;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+.grid figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+
+/* Individual effects */
+
+/*---------------*/
+/***** Julia *****/
+/*---------------*/
+
+figure.effect-julia {
+	background: #2f3238;
+}
+
+
+
+figure.effect-julia figcaption {
+	text-align: left;
+}
+
+
+
+figure.effect-julia p {
+	display: inline-block;
+	margin: 0 0 0.25em;
+	padding: 0.4em 1em;
+	background: rgba(255,255,255,0.9);
+	color: #2f3238;
+	text-transform: none;
+	font-weight: 500;
+	font-size: 75%;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-360px,0,0);
+	transform: translate3d(-360px,0,0);
+}
+
+
+
+
+figure.effect-julia:hover img {
+	opacity: 0.4;
+	-webkit-transform: scale3d(1.1,1.1,1);
+	transform: scale3d(1.1,1.1,1);
+}
+
+figure.effect-julia:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+/*-----------------*/
+/***** Goliath *****/
+		
+
+			/*Sign in*/		
+
+
+			.modal-header h1{
+				color:black;
+				text-align:center;
+				font-size:28px;
+				}
+				
+			#form1 span{
+				display:inline-block;
+				color:#00C;
+				padding-right:20px;
+				vertical-align:middle;
+				font-size:30px;
+				}
+			
+			#form1 input{
+				border:none; outline:none;
+				display:inline-block;
+				width:77%;
+				}
+			
+			#form2 span{
+				display:inline-block;
+				 padding-right:23px;
+				color:#00C;
+				vertical-align:middle;
+				font-size:30px;
+				}
+			
+			
+			#form2 input{
+				border:none;
+				outline:none;
+				width:77%;
+				background-color:#f5f5f5;
+				height:40px;
+				outline:none;border:none;
+				display:inline-block;
+				border-radius:6px;
+				width:80%;
+				}
+			
+			#btn-login{
+				background-color:#FF80AB ;
+				border-radius:20px;
+				height:35px;
+				font-size:16px;
+				transition:0.4s;
+				box-shadow:2px 4px 18px #666666;
+				}
+			
+			#btn-login:hover{
+				background-color:#06C;
+				}
+			
+			
+					/*Sign up*/
+			
+				
+			#form1 h5{
+				font-weight:bold;
+				}
+			
+			#form1 input{
+				background-color:#f5f5f5;
+				height:40px;
+				outline:none;border:none;
+				display:inline-block;
+				border-radius:6px;
+				width:80%;
+				}
+				
+			
+			#form1 input[type=text]::placeholder{
+				padding-left:10px;
+				}
+			
+			#form1 input[type=password]::placeholder{
+				padding-left:10px;
+				}
+			
+			#form2 input[type=password]::placeholder{
+				padding-left:10px;
+				}
+			
+			#form1 input[type=text]{
+				padding-left:10px;
+				}
+			
+			#form1 input[type=password]{
+				padding-left:10px;
+				}
+			
+			#form2 input[type=password]{
+				padding-left:10px;
+				}
+			
+			
+			.close{
+				margin-right:-38px;
+				}
+			
+			#btn-singup{
+				background-color:#FF80AB ;
+				border-radius:20px;
+				height:35px;
+				width:80%;
+				font-size:16px;
+				transition:0.4s;
+				box-shadow:2px 4px 18px #666666;
+				}
+			
+			#btn-singup:hover{
+				background-color:#06C;
+				}
+			
+			
+			.modal-footer button{
+				background-color:#f5f5f5;
+				width:60px;
+				border-radius:25px;
+				font-size:16px;
+				color:#06C;
+				transition:0.4s;
+				box-shadow:2px 2px 8px #666666;
+				}
+				
+				
+			.modal-footer button:hover{
+				transform:scale(0.9);
+				}
+			
+			
